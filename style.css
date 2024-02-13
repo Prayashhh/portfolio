@@ -1,0 +1,370 @@
+@import url('https://fonts.cdnfonts.com/css/mockind-easter');
+@import url('https://fonts.cdnfonts.com/css/pixelify-sans');
+@import url('https://fonts.cdnfonts.com/css/montserrat-ace');
+@import url('https://fonts.cdnfonts.com/css/funkie-retro');
+@import url('https://fonts.cdnfonts.com/css/gluten');
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0px;
+    background-color: lightseagreen;
+}
+header{
+    margin-top: 0px;
+    text-align: center;
+    padding: 5px;
+    background: blanchedalmond;
+    font-family: 'Mockind Easter', sans-serif;
+    font-style: italic;
+    font-size: x-small;
+    color: palevioletred;
+    /* position: sticky;
+    top: 0px;  */
+    width: 100%;
+}
+nav{
+    background: rgba(177, 108, 18, 1);
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    /* top: 72.5px; */
+    width: 100%;
+    display: flex;
+    margin-top: -1px;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 14px 20px;
+    float: left;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 66, 0);
+    text-decoration-thickness: 4px;
+    transition: 1s;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+}
+#home-page{
+    margin: 10px;
+    padding: 10px;
+    border: 0px;
+    padding-top: -10px;
+    height: 480px;
+}
+.home {
+    margin-left: 8%;
+    padding-left: 20px;
+    margin-top: 10%;
+}
+.home h2{
+    text-align: justify;
+    color: whitesmoke;
+    font-family: 'Montserrat Ace', sans-serif;
+    font-size: 60px;
+    margin-bottom: 1px;
+                                                
+}
+.home span{
+    padding-left: -10px;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: palegreen;
+    font-size: xx-large;
+}
+.home p{
+    text-align: justify;
+    color: whitesmoke;
+    font-family: 'Montserrat Ace', sans-serif;
+    font-size: 25px;
+}
+.home img{
+    width: 200px;
+    height: 420px;
+    margin-right: 20%;
+    margin-top: -5%;
+    margin-bottom: -100px;
+    float: right;
+}
+#about-me{
+    padding: 10px;
+    border: 0px;
+    padding-top: -10px;
+    height: 558px;
+    margin: 0px;
+}
+.about{
+    margin-right: 8%;
+    padding-left: 20px;
+    margin-top: 11%;
+}
+.about h2{
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 66, 0);
+    text-align: center;
+    color: royalblue;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'Funkie Retro', sans-serif;
+}
+.about p{
+    text-align: justify;
+    color: whitesmoke;
+    font-family: 'Montserrat Ace', sans-serif;
+    font-size: 25px;
+}
+.about img{
+    width: 550px;
+    height: auto;
+    margin-left: -10px;
+    margin-top: -40px;
+    padding: 10px;
+    float: left;
+}
+#Exp{
+    padding: 10px;
+    border: 0px;
+    padding-top: -10px;
+    height: auto;
+    margin: 0px;
+    margin-top: -70px;
+}
+.my-exp{
+    margin-right: 8%;
+    padding-left: 65px;
+    margin-top: 10%;
+}
+.my-exp h2{
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 66, 0);
+    text-align: center;
+    color: royalblue;
+    font-size: 65px;
+    margin-bottom: 1px;
+    font-family: 'Funkie Retro', sans-serif;
+}
+.my-exp h3{
+    text-align: justify;
+    color: blueviolet;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Gluten', sans-serif;
+}
+.my-exp ul li{
+    text-align: justify;
+    color: whitesmoke;
+    font-family: 'Montserrat Ace', sans-serif;
+    font-size: 30px;
+    list-style: disc;
+}
+#Projects{
+    padding: 10px;
+    border: 0px;
+    padding-top: -10px;
+    height: auto;
+    margin: 0px;
+    margin-top: -11px;
+}
+.pro{
+    margin-right: 8%;
+    padding-left: 20px;
+    margin-top: 10%;
+}
+.pro h2{
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 66, 0);
+    text-align: center;
+    color: royalblue;
+    font-size: 65px;
+    margin-bottom: 1px;
+    padding-bottom: 20px;
+    font-family: 'Funkie Retro', sans-serif;
+}
+.pro .vid{
+    margin-left: 2%;
+    padding-left: 20px;
+    margin-top: 0%;
+}
+.pro .img{
+    margin-left: 30%;
+    padding-left: 20px;
+    margin-top: 0%;
+}
+.pro-pic{
+    width: 412px;
+    height: 300px;
+    border: 2px crimson solid;
+    border-radius: 10px;
+    margin:10px;
+}
+.gameplay{
+    width: 512px;
+    height: 300px;
+    border: 2px crimson solid;
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: fill;
+}
+#skills{
+    padding: 10px;
+    border: 0px;
+    padding-top: -10px;
+    height: auto;
+    margin: 0px;
+    margin-top: -60px; 
+}
+.ski{
+    margin-right: 8%;
+    padding-left: 20px;
+    margin-top: 10%;
+}
+.ski h2{
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 66, 0);
+    text-align: center;
+    color: royalblue;
+    font-size: 65px;
+    margin-bottom: 1px;
+    font-family: 'Funkie Retro', sans-serif;
+    padding-left: 30px;
+}
+.ski img{
+    border: 2px crimson solid;
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 4px;
+    /* clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%); */
+}
+.ski .images{
+    padding-left: 30px;
+}
+.ski .mc{
+    width: 170px;
+    margin: 25px;
+    margin-left: 150px;
+}
+.ski .cod{
+    width: 175px;
+    margin: 25px;
+}
+.ski .val{
+    width: 170px;
+    margin: 25px;
+}
+.ski .rob{
+    width: 171px;
+    margin: 25px;
+}
+.ski .fn{
+    width: 171px;
+    margin: 25px;
+    /* margin-left: 377px; */
+}
+.ski .am{
+    width: 175px;
+    height: 172px;
+    margin: 25px;
+    object-fit: cover;
+}
+.ski .ht{
+    width: 175px;
+    height: 169px;
+    margin: 25px;
+    margin-left: 148px;
+    background-color: whitesmoke;
+    object-fit: scale-down;
+    border: 5px crimson solid;
+}
+.ski .cs{
+    width: 175px;
+    height: 169px;
+    margin: 25px;
+    background-color: whitesmoke;
+    object-fit: scale-down;
+    border: 5px crimson solid;
+}
+#contact{
+    padding: 10px;
+    border: 0px;
+    padding-top: -10px;
+    height: 490px;
+    margin: 0px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+.con h2{
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 66, 0);
+    text-align: center;
+    color: royalblue;
+    font-size: 65px;
+    margin-bottom: 1px;
+    font-family: 'Funkie Retro', sans-serif;
+}
+.con .tbl{
+    padding-left: 326px;
+    border: 0px;
+    padding-top: -10px;
+    height: auto;
+    margin: 0px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.con .tbl span{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgba(255, 217, 0, 0.616);
+    color: blueviolet;
+    font-weight: 1000;
+    font-family: 'Gluten', sans-serif;
+    font-size: 35px;
+}
+.con .tbl td{
+    font-family: 'Montserrat Ace', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    padding: 6px;
+    padding-left: 12px;
+}
+.con .tbl th{
+    font-family: 'Montserrat Ace', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.con .tbl a{
+    text-decoration: none;
+    color: black;
+}
+.con .tbl a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-weight: 400;
+}
+#foot{
+    background-color:rgba(58, 148, 143, 0.61); 
+    padding: 10px;
+    border: 0px;
+    padding-top: -10px;
+    height: 96px;
+    margin: 0px;
+    margin-top: -10px;  
+}
+#foot{
+    margin-right: 0%;
+    padding-left: 41%;
+    margin-top: 0%;
+}
+#foot h4{
+    align-items: center;
+    font-size: 20px ;
+    font-family: 'Montserrat Ace', sans-serif;
+    font-weight:860;
+    color: gold;
+}
